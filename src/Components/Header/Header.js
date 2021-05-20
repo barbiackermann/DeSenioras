@@ -9,7 +9,7 @@ const Header = () => {
         <Container>
           <Row className="header">
             <Col md={5} className="align-self-center">
-              <img src={SHeather} className="heather"></img>
+              <img src={SHeather} className="heather" alt="Heather"></img>
             </Col>
             <Col md={7} className="align-self-center">
               <p className="title">

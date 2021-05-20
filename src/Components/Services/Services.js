@@ -18,7 +18,12 @@ const Services = () => {
         </Row>
         <Row className="services-description">
           <Col md={4} className="services-col">
-            <img src={Scomunicacion} fluid className="serv-icon"></img>
+            <img
+              src={Scomunicacion}
+              fluid
+              className="serv-icon"
+              alt="comunication"
+            ></img>
             <h6>Comunicación y Marketing</h6>
             <ul>
               <li>Estrategia de contenidos</li>
@@ -29,7 +34,7 @@ const Services = () => {
             </ul>
           </Col>
           <Col md={4} className="services-col">
-            <img src={Sdisenio} fluid className="serv-icon"></img>
+            <img src={Sdisenio} fluid className="serv-icon" alt="design"></img>
             <h6>Diseño Gráfico</h6>
             <ul>
               <li>Diseño UX/UI</li>
@@ -39,7 +44,7 @@ const Services = () => {
             </ul>
           </Col>
           <Col md={4} className="services-col">
-            <img src={Sdigital} fluid className="serv-icon"></img>
+            <img src={Sdigital} fluid className="serv-icon" alt="digital"></img>
             <h6>Diseño Digital</h6>
             <ul>
               <li>Diseño y desarrollo web</li>
@@ -49,7 +54,12 @@ const Services = () => {
             </ul>
           </Col>
           <Col md={4} className="services-col">
-            <img src={Sbranding} fluid className="serv-icon"></img>
+            <img
+              src={Sbranding}
+              fluid
+              className="serv-icon"
+              alt="branding"
+            ></img>
             <h6>Branding</h6>
             <ul>
               <li>Identidad visual</li>
@@ -59,7 +69,12 @@ const Services = () => {
             </ul>
           </Col>
           <Col md={4} className="services-col">
-            <img src={Splaning} fluid className="serv-icon"></img>
+            <img
+              src={Splaning}
+              fluid
+              className="serv-icon"
+              alt="planning"
+            ></img>
             <h6>Planning de Campañas</h6>
             <ul>
               <li>Definición de objetivos</li>
@@ -68,7 +83,12 @@ const Services = () => {
             </ul>
           </Col>
           <Col md={4} className="services-col">
-            <img src={Sasesoramientos} fluid className="serv-icon"></img>
+            <img
+              src={Sasesoramientos}
+              fluid
+              className="serv-icon"
+              alt="asesor"
+            ></img>
             <h6>Asesoramientos</h6>
             <ul>
               <li>Estrategia y planificación de redes</li>

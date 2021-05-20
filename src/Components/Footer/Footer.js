@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <Row className="footer">
         <Col md={4} className="align-self-center">
-          <img src={Sfooter} fluid className="miss"></img>
+          <img src={Sfooter} fluid className="miss" alt="footer-image"></img>
         </Col>
         <Col md={4} className="align-self-center contact">
           <h4>comunicaciondesenioras@gmail.com</h4>
