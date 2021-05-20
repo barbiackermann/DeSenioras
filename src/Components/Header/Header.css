@@ -1,3 +1,22 @@
-*{
-    color: blue;
+.bg-berry{
+    background-color: #555ca8;
+}
+.header{
+    background-color: #555ca8;
+    margin: 0;
+    height: 80vh;
+    align-content: center;
+}
+.heather{
+    width: 100%;
+}
+.title{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.title>h1{
+    font-weight: 900;
+    font-size: 4.5vw;
+    text-align: center;
 }

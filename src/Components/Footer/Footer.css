@@ -1,3 +1,27 @@
-.far{
-    color: blue;
+.footer{
+    margin: 0;
+    padding: 0;
+    background-color: #758c8e;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+}
+.miss{
+    width: 40%;
+}
+.contact>h4{
+    font-size: 1.25vw;
+    font-weight: 600;
+}
+.contact>p{
+    margin: 0;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.footer-link{
+    margin: 0.5vw;
+    font-size: 1.5vw;
 }

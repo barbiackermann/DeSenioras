@@ -1,0 +1,14 @@
+.presentation{
+    color:#808184;
+    text-align: center;
+    margin: 3vw 7vw;
+}
+.presentation>p{
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.presentation>h4{
+    font-size: 2vw;
+    margin: 2vw 10vw;
+    color: #555ca8;
+}

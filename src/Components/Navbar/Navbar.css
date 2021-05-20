@@ -1,0 +1,14 @@
+.navbar{
+    background-color: transparent;
+    margin: 0;
+    height: 5vw;
+}
+a{
+    color:white
+}
+a:hover{
+    color:rgb(59, 59, 59)
+}
+.navbar-brand{
+    font-weight: 600;
+}

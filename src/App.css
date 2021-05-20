@@ -1,6 +1,11 @@
-*{
-  color: black;
+.principal{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
 }
-a{
-  color: black;
+.caveat {
+    font-family: 'Caveat Brush', cursive;
+}
+.quick{
+    font-family: 'Quicksand', sans-serif;
 }

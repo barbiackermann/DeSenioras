@@ -7,7 +7,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Container fluid>
+    <Container fluid p={0} className="principal">
       <Navbar />
       <Header />
       <Main />

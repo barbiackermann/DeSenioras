@@ -1,16 +1,25 @@
 import "./Header.css";
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import SHeather from "./../IMG/SHeather.png";
 
 const Header = () => {
   return (
     <>
-      <Row>
-        <Col>
-          <img src="" alt="" />
-          <h1>Comunicación de Señoras</h1>
-          <h3>Diseño, Web y Marketing Digital</h3>
-        </Col>
-      </Row>
+      <Container fluid className="bg-berry">
+        <Container>
+          <Row className="header">
+            <Col md={5} className="align-self-center">
+              <img src={SHeather} className="heather"></img>
+            </Col>
+            <Col md={7} className="align-self-center">
+              <p className="title">
+                <h1>Comunicación de Señoras</h1>
+                <h3>Diseño, Web y Marketing Digital</h3>
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
     </>
   );
 };

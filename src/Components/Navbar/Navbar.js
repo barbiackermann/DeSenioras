@@ -1,61 +1,72 @@
 import "./Navbar.css";
-import { Col, Nav } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Navbar = () => {
   return (
     <>
-      <Nav className="navbar navbar-expand-md fixed-top justify-content-beetween bg-transparent">
+      <nav className="navbar navbar-expand-md fixed-top justify-content-beetween">
         <Col>
-          <a className="navbar-brand" href="#">
-            <img src="" alt="" /> {/* Acá el logo de señoras */}
-            SEÑORAS
+          <a className="navbar-brand pl-3" href="#">
+            S E Ñ O R A S
           </a>
         </Col>
-        <Col>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-        </Col>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
           <Col>
-            <div className="navbar-nav">
-              <a className="nav-link" href="#">
-                Quienes Somos
-              </a>
-              <a className="nav-link" href="#">
-                Servicios
-              </a>
-              <a className="nav-link" href="#">
-                Nuestros Clientes
-              </a>
-            </div>
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Quienes Somos
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Servicios
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Nuestros Clientes
+                </a>
+              </li>
+            </ul>
           </Col>
           <Col>
-            <div className="navbar-nav">
-              <a className="nav-link" href="#">
-                <i className="fab fa-instagram"></i>
-              </a>
-              <a className="nav-link" href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a className="nav-link" href="#">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
-              <a className="nav-link" href="#">
-                <i className="fab fa-whatsapp"></i>
-              </a>
-            </div>
+            <ul className="navbar-nav justify-content-end">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
           </Col>
         </div>
-      </Nav>
+      </nav>
     </>
   );
 };
