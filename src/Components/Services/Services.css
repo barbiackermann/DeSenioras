@@ -1,0 +1,35 @@
+.services{
+    text-align: center;
+    color: #555ca8;
+}
+.services-title{
+    border-bottom: solid 1px #555ca8;
+}
+.services-title>h2{
+    font-weight: 600;
+}
+.services-description{
+    margin-top: 2vw;
+}
+.services-description>*{
+    text-align: center;
+}
+.serv-icon{
+    width: 50%;
+}
+.services-col{
+    padding: 1vw 3vw;
+}
+.services-col>h6{
+    margin-top: 1vw;
+    color: #555ca8;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.services-col>ul{
+    padding-left: 0;
+    list-style: none;
+}
+.services-col>ul>li{
+    font-size: 1vw;
+}
