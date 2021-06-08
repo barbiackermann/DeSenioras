@@ -1,0 +1,30 @@
+.btn-cta{
+    background-color: #938cff;
+    height: 3vw;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-weight: 600;
+    margin: 3vw auto;
+}
+.btn-cta>a{
+    text-decoration: none;
+    padding: 1vw;
+    text-align: center;
+    vertical-align: middle;
+}
+.btn-cta>a>i{
+    text-decoration: none;
+    padding-right: 0.25vw;
+    vertical-align: -1px;
+}
+.btn-cta:hover{
+    background-color: black;
+    color: white;
+}
+.btn-cta>a:hover{
+    color: white;
+}

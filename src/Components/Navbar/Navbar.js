@@ -23,7 +23,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <Col>
-            <ul className="navbar-nav">
+            <ul className="navbar-nav justify-content-center">
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   Quienes Somos

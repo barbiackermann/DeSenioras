@@ -1,0 +1,48 @@
+.ofrecemos{
+    text-align: center;
+    color: #f6911e;
+}
+.offer-title{
+    padding-top: 2vw;
+    border-top: solid 1px #f6911e;
+}
+.offer-title>h2{
+    font-weight: 600;
+}
+.offer-title>h3{
+    font-weight: 400;
+}
+.offer-description{
+    margin-top: 2vw;
+}
+.offer-description>*{
+    text-align: center;
+}
+.offer-icon{
+    width: 80%;
+}
+.offer-col{
+    padding: 1vw 3vw;
+}
+.offer-col>h6{
+    display: block;
+    padding-bottom: 0.5vw;
+    border-bottom: solid 1px #181818;
+    margin-top: 1vw;
+    color: #181818;
+    font-size: 1vw;
+    font-weight: 600;
+}
+.offer-col>ul{
+    padding-left: 0;
+    list-style: none;
+}
+.offer-col>ul>li{
+    font-size: 1vw;
+    text-align: justify;
+}
+.loquieroEX{
+    color: #f6911e;
+    font-size: 1.25vw;
+    font-weight: 600;
+}

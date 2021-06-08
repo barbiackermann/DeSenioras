@@ -1,0 +1,28 @@
+.clientes{
+    text-align: center;
+    color: #65797a;
+}
+.clients-title{
+    padding-top: 2vw;
+    border-top: solid 1px #65797a;
+}
+.clients-title>h2{
+    font-weight: 600;
+}
+.clients-title>h3{
+    width: 50%;
+    margin: auto;
+    font-weight: 400;
+}
+.clients-description{
+    margin-top: 2vw;
+}
+.clients-description>*{
+    text-align: center;
+}
+.clients-icon{
+    width: 60%;
+}
+.clients-col{
+    padding: 1vw 3vw;
+}

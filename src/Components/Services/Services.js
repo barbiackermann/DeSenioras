@@ -6,6 +6,7 @@ import Sdigital from "./../IMG/Sdigital.png";
 import Sbranding from "./../IMG/Sbranding.png";
 import Splaning from "./../IMG/Splaning.png";
 import Sasesoramientos from "./../IMG/Sasesoramientos.png";
+import LineaDirecta from "./../LineaDirecta";
 
 const Services = () => {
   return (
@@ -48,7 +49,8 @@ const Services = () => {
             <h6>Diseño Digital</h6>
             <ul>
               <li>Diseño y desarrollo web</li>
-              <li>Micrositios promocionales y landing pages</li>
+              <li>Micrositios promocionales</li>
+              <li>Landing pages</li>
               <li>E-commerce</li>
               <li>Diseño y desarrollo de apps</li>
             </ul>
@@ -97,6 +99,7 @@ const Services = () => {
             </ul>
           </Col>
         </Row>
+        <LineaDirecta />
       </Container>
     </>
   );

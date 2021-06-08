@@ -13,7 +13,8 @@ const Header = () => {
             </Col>
             <Col md={7} className="align-self-center">
               <p className="title">
-                <h1>Comunicación de Señoras</h1>
+                <h2>Comunicación</h2>
+                <h1>de Señoras</h1>
                 <h3>Diseño, Web y Marketing Digital</h3>
               </p>
             </Col>

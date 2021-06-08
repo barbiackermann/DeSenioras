@@ -3,7 +3,8 @@
     color: #555ca8;
 }
 .services-title{
-    border-bottom: solid 1px #555ca8;
+    padding-top: 2vw;
+    border-top: solid 1px #555ca8;
 }
 .services-title>h2{
     font-weight: 600;

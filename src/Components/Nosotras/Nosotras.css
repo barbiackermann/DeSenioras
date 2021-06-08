@@ -1,0 +1,21 @@
+.senioras{
+    text-align: center;
+    color: #35bdbc;
+}
+.miss-title{
+    padding-top: 2vw;
+    border-top: solid 1px #35bdbc;
+}
+.miss-title>h2{
+    font-weight: 600;
+}
+.miss-title>h3{
+    font-weight: 400;
+}
+.nosotras{
+    width: 80%;
+    margin: auto;
+}
+.miss-text>p{
+    text-align: center;
+}
