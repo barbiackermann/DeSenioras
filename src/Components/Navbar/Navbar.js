@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import { Col } from "react-bootstrap";
+import navSenioras from "./../IMG/navSenioras.png";
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-md fixed-top justify-content-beetween">
         <Col>
           <a className="navbar-brand pl-3" href="#">
-            S E Ñ O R A S
+            <img src={navSenioras} alt="" className="navSenioras" />
           </a>
         </Col>
         <button

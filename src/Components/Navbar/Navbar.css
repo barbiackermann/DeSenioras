@@ -12,6 +12,10 @@ a:hover{
 .navbar-brand{
     font-weight: 600;
 }
+.navSenioras{
+    max-width: 45%;
+    height: auto;
+}
 .fab{
     font-size: 1.25vw;
 }

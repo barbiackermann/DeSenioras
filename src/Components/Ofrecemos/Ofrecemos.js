@@ -24,16 +24,13 @@ const Ofrecemos = () => {
               className="offer-icon"
               alt="Pack 1"
             ></img>
-            <h6>PACK 1</h6>
+            <h6>SEÑORA ESTELA</h6>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
               <li>
-                Doloribus, tempore autem! Cum maxime corrupti suscipit numquam.
+                Asesorías para armar la estrategia y planificación de redes.
               </li>
-              <li>
-                Minus perspiciatis, neque ut placeat laudantium praesentium
-                minima voluptatum quod qui veniam autem in!
-              </li>
+              <li>Asesoramiento para el armado de tienda web.</li>
+              <li>Asesoramiento en el diseño de la identidad.</li>
             </ul>
           </Col>
           <Col md={3} className="offer-col">
@@ -43,16 +40,12 @@ const Ofrecemos = () => {
               className="offer-icon"
               alt="PAck 2"
             ></img>
-            <h6>PACK 2</h6>
+            <h6>SEÑORA MARTHA</h6>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>
-                Doloribus, tempore autem! Cum maxime corrupti suscipit numquam.
-              </li>
-              <li>
-                Minus perspiciatis, neque ut placeat laudantium praesentium
-                minima voluptatum quod qui veniam autem in!
-              </li>
+              <li>Tienda online en plataforma de ecommerce.</li>
+              <li>Diseño de Banners e imagenes para la tienda.</li>
+              <li>Diseño de isologo.</li>
+              <li>Estrategia y planificación en redes sociales.</li>
             </ul>
             <h3 className="loquieroEX">LO QUIERO</h3>
           </Col>
@@ -63,16 +56,11 @@ const Ofrecemos = () => {
               className="offer-icon"
               alt="Pack 3"
             ></img>
-            <h6>PACK 3</h6>
+            <h6>SEÑORA BEATRIZ</h6>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>
-                Doloribus, tempore autem! Cum maxime corrupti suscipit numquam.
-              </li>
-              <li>
-                Minus perspiciatis, neque ut placeat laudantium praesentium
-                minima voluptatum quod qui veniam autem in!
-              </li>
+              <li>Landing page a medida.</li>
+              <li>Diseño de isologotico con manual de marca.</li>
+              <li>Estrategia y planificacion de redes sociales.</li>
             </ul>
           </Col>
           <Col md={3} className="offer-col">
@@ -82,16 +70,11 @@ const Ofrecemos = () => {
               className="offer-icon"
               alt="Pack 4"
             ></img>
-            <h6>PACK 4</h6>
+            <h6>SEÑORA GLORIA</h6>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>
-                Doloribus, tempore autem! Cum maxime corrupti suscipit numquam.
-              </li>
-              <li>
-                Minus perspiciatis, neque ut placeat laudantium praesentium
-                minima voluptatum quod qui veniam autem in!
-              </li>
+              <li>Sitio Full o Standard diseñado a medida.</li>
+              <li>Diseño de isologo y manual de marca.</li>
+              <li>Estrategia y planificacion en redes sociales.</li>
             </ul>
           </Col>
         </Row>
