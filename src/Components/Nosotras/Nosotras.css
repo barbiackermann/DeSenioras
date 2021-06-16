@@ -17,5 +17,8 @@
     margin: auto;
 }
 .miss-text>p{
-    text-align: center;
+    text-align: justify;
+    font-size: 1.20vw;
+    color: #808184;
+    margin: 2vw 3vw;
 }

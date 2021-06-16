@@ -1,6 +1,9 @@
 import "./Clients.css";
 import { Container, Row, Col } from "react-bootstrap";
-import Sofrecemos1 from "./../IMG/Sofrecemos1.png";
+import clientesclaudia from "./../IMG/clientesclaudia.png";
+import clienteslituania from "./../IMG/clienteslituania.png";
+import clientesmm from "./../IMG/clientesmm.png";
+import clientespetricor from "./../IMG/clientespetricor.png";
 
 const Clients = () => {
   return (
@@ -17,36 +20,44 @@ const Clients = () => {
         </Row>
         <Row className="clients-description">
           <Col md={3} className="clients-col">
-            <img
-              src={Sofrecemos1}
-              fluid
-              className="clients-icon"
-              alt="asesor"
-            ></img>
+            <a href="#">
+              <img
+                src={clientesclaudia}
+                fluid
+                className="clients-icon"
+                alt="asesor"
+              ></img>
+            </a>
           </Col>
           <Col md={3} className="clients-col">
-            <img
-              src={Sofrecemos1}
-              fluid
-              className="clients-icon"
-              alt="asesor"
-            ></img>
+            <a href="#">
+              <img
+                src={clienteslituania}
+                fluid
+                className="clients-icon"
+                alt="asesor"
+              ></img>
+            </a>
           </Col>
           <Col md={3} className="clients-col">
-            <img
-              src={Sofrecemos1}
-              fluid
-              className="clients-icon"
-              alt="asesor"
-            ></img>
+            <a href="#">
+              <img
+                src={clientesmm}
+                fluid
+                className="clients-icon"
+                alt="asesor"
+              ></img>
+            </a>
           </Col>
           <Col md={3} className="clients-col">
-            <img
-              src={Sofrecemos1}
-              fluid
-              className="clients-icon"
-              alt="asesor"
-            ></img>
+            <a href="#">
+              <img
+                src={clientespetricor}
+                fluid
+                className="clients-icon"
+                alt="asesor"
+              ></img>
+            </a>
           </Col>
         </Row>
       </Container>

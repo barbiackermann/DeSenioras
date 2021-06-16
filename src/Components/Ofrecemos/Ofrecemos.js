@@ -32,6 +32,7 @@ const Ofrecemos = () => {
               <li>Asesoramiento para el armado de tienda web.</li>
               <li>Asesoramiento en el diseño de la identidad.</li>
             </ul>
+            <h3 className="loquieroEX">LO QUIERO</h3>
           </Col>
           <Col md={3} className="offer-col">
             <img
@@ -62,6 +63,7 @@ const Ofrecemos = () => {
               <li>Diseño de isologotico con manual de marca.</li>
               <li>Estrategia y planificacion de redes sociales.</li>
             </ul>
+            <h3 className="loquieroEX">LO QUIERO</h3>
           </Col>
           <Col md={3} className="offer-col">
             <img
@@ -76,6 +78,7 @@ const Ofrecemos = () => {
               <li>Diseño de isologo y manual de marca.</li>
               <li>Estrategia y planificacion en redes sociales.</li>
             </ul>
+            <h3 className="loquieroEX">LO QUIERO</h3>
           </Col>
         </Row>
         <LineaDirecta></LineaDirecta>

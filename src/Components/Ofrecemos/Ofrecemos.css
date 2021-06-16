@@ -34,6 +34,7 @@
     font-weight: 600;
 }
 .offer-col>ul{
+    height: 12vw;
     padding-left: 0;
     list-style: none;
 }
