@@ -22,6 +22,7 @@
     width: 80%;
 }
 .offer-col{
+    color: grey;
     padding: 1vw 3vw;
 }
 .offer-col>h6{
@@ -29,18 +30,18 @@
     padding-bottom: 0.5vw;
     border-bottom: solid 1px #181818;
     margin-top: 1vw;
-    color: #181818;
+    color: rgb(77, 76, 76);
     font-size: 1vw;
     font-weight: 600;
 }
 .offer-col>ul{
-    height: 12vw;
+    height: 13vw;
     padding-left: 0;
     list-style: none;
 }
 .offer-col>ul>li{
     font-size: 1vw;
-    text-align: justify;
+    text-align: left;
 }
 .loquieroEX{
     color: #f6911e;
